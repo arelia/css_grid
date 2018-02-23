@@ -8,6 +8,7 @@
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/custom.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -31,100 +32,108 @@
 						<ul>
 							<li>Assuming most are familiar with flexbox</li>
 							<li>Flexbox defines a 1-dimensional system - either vertical or horizontal</li>
-				            <li>CSS Grid is a new-ish set of properties; defines a 2-dimensional grid-based layout system</li>
+							<li>CSS Grid is a new-ish set of properties; defines a 2-dimensional grid-based layout system</li>
 						</ul>
 					</aside>
 				</section>
 				<section>
-          <p data-height="472" data-theme-id="dark" data-slug-hash="YqqdXL" data-default-tab="html,result" data-user="rachelandrew" data-embed-version="2" data-pen-title="Flex and Grid demo" class="codepen">See the Pen <a href="https://codepen.io/rachelandrew/pen/YqqdXL/">Flex and Grid demo</a> by rachelandrew (<a href="https://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-          <small>Rachel Andrew's Article: https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/</small>
-		  <small>Rachel Andrew's Pen: https://codepen.io/rachelandrew/pen/YqqdXL</small>
-		  <small>My fork: https://codepen.io/arelia/pen/WMKmJX/?editors=1100</small>
-          <aside class="notes">
+		  <p data-height="472" data-theme-id="dark" data-slug-hash="YqqdXL" data-default-tab="html,result" data-user="rachelandrew" data-embed-version="2" data-pen-title="Flex and Grid demo" class="codepen">See the Pen <a href="https://codepen.io/rachelandrew/pen/YqqdXL/">Flex and Grid demo</a> by rachelandrew (<a href="https://codepen.io/rachelandrew">@rachelandrew</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+		  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+		  <ul class="screen-notes screen-notes--small">
+			  <li>Rachel Andrew's Article: <a href="https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/">https://rachelandrew.co.uk/archives/2016/03/30/should-i-use-grid-or-flexbox/</a></li>
+			  <li>Rachel Andrew's Pen: <a href="https://codepen.io/rachelandrew/pen/YqqdXL">https://codepen.io/rachelandrew/pen/YqqdXL</a></li>
+			  <li>Arelia's Fork: <a href="https://codepen.io/arelia/pen/WMKmJX/?editors=1100">https://codepen.io/arelia/pen/WMKmJX/?editors=1100</a></li>
+		  </ul>
+		  <aside class="notes">
 
 			<ul>
 				<li>Two sets of cards. Both in rows</li>
 				<li>Flexbox - Resize page and cards go to next row. If you allow them to grow and shrink, they fill the space in the row</li>
 				<li>Grid - Same but vertical relationship as well</li>
 			</ul>
-          </aside>
-        </section>
-        <section>
-          <h2>Like Flexbox, Grid is good for</h2>
-          <ul>
-            <li>Dynamic content</li>
-            <li>Responsive layouts</li>
-            <li>Uniform height/width across elements</li>
-            <li>Changing order</li>
-          </ul>
+		  </aside>
+		</section>
+		<section>
+		  <h2>Like Flexbox<br>Grid is good for</h2>
+		  <ul class="screen-notes">
+			<li>Dynamic content</li>
+			<li>Responsive layouts</li>
+			<li>Uniform height/width across elements</li>
+			<li>Changing order</li>
+		  </ul>
 		  <aside class="notes">
 			  <li>Create a layout and position elements where you want them</li>
 			  <li>A traditional "holy grail" or sidebar layout or something completly new</li>
 		  </aside>
-        </section>
-        <section>
-			<a href="https://cl.ly/2W2p3s0w2i3r" target="_blank" class="stretch"><img src="https://dha4w82d62smt.cloudfront.net/items/251U2f2P2a2m0n3U2o2P/Screen%20Recording%202018-02-23%20at%2012.44%20PM.gif" style="display: block;height: auto;width: 100%;"/></a>
-			<small>http://labs.jensimmons.com/</small>
-			<aside class="notes">
-  			  <li>See Jen Simmon's Labs for inspiration</li>
-  			  <li>Has been playing with new layout tools and techniques, taking inspiration from print layouts</li>
-			  <li>Use your favorite magazines, album covers, works of art for inspiration and to create designs that we haven't yet seen on the web</li>
-  		  </aside>
-        </section>
+		</section>
 		<section>
-			<iframe src="https://giphy.com/embed/l0ErOholJjSmFlMFG" width="480" height="271" frameBorder="0" class="giphy-embed stretch" allowFullScreen></iframe>
+			<a href="https://cl.ly/2W2p3s0w2i3r" target="_blank" class="stretch"><img src="https://dha4w82d62smt.cloudfront.net/items/251U2f2P2a2m0n3U2o2P/Screen%20Recording%202018-02-23%20at%2012.44%20PM.gif" style="display: block;height: auto;width: 100%;"/></a>
+			<small><a href="http://labs.jensimmons.com/">http://labs.jensimmons.com/</a></small>
+			<aside class="notes">
+			  <li>See Jen Simmon's Labs for inspiration</li>
+			  <li>Has been playing with new layout tools and techniques, taking inspiration from print layouts</li>
+			  <li>Use your favorite magazines, album covers, works of art for inspiration and to create designs that we haven't yet seen on the web</li>
+		  </aside>
+		</section>
+		<section data-background-image="https://media.giphy.com/media/l0ErOholJjSmFlMFG/giphy.gif">
+			<!-- <iframe src="https://giphy.com/embed/l0ErOholJjSmFlMFG" width="480" height="271" frameBorder="0" class="giphy-embed stretch" allowFullScreen></iframe> -->
 			<aside class="notes">
 				Can we use this? Yes we can!
 			</aside>
 		</section>
-        <section>
-          <p class="ciu_embed" data-feature="css-grid" data-periods="future_1,current,past_1" data-accessible-colours="true">
-            <a href="http://caniuse.com/#feat=css-grid">Can I Use css-grid?</a> Data on support for the css-grid feature across the major browsers from caniuse.com.
-          </p>
-          <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
+		<section>
+		  <p class="ciu_embed" data-feature="css-grid" data-periods="future_1,current,past_1" data-accessible-colours="true">
+			<a href="http://caniuse.com/#feat=css-grid">Can I Use css-grid?</a> Data on support for the css-grid feature across the major browsers from caniuse.com.
+		  </p>
+		  <script src="https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/caniuse-embed.min.js"></script>
 		  <aside class="notes">
 			<li>New grid is well-supported</li>
 			<li>Microsoft pioneered CSS Grid specification. </li>
 		  </aside>
-        </section>
-        <section>
-          <h2>Fallbacks with <code>@supports</code></h2>
+		</section>
+		<section>
+		  <h2>Fallbacks with <code>@supports</code></h2>
 		  <aside class="notes">
-		  	For production, if it doesn't "just work" in older browsers, use fallbacks like display: flex or display: table, or do nothing b/c block elements will still be block elements
+			For production, if it doesn't "just work" in older browsers, use fallbacks like display: flex or display: table, or do nothing b/c block elements will still be block elements
 		  </aside>
-        </section>
-        <section>
-          <h2>Dev Tools</h2>
+		</section>
+		<section>
+		  <h2>Dev Tools</h2>
 		  <a href="https://cl.ly/183F083P2z2y" target="_blank" class="stretch"><img src="https://dha4w82d62smt.cloudfront.net/items/2z380X1C2H221z1r0V14/Image%202018-02-23%20at%2012.58.38%20PM.png" style="display: block;height: auto;width: 100%;"/></a>
 		  <aside class="notes">
 			<li>Can be a little tricky to remember that you need to count at the grid gaps, not necessarily the row or column numbers</li>
-		  	<li>Firefox is first to have native Dev Tools for grid, developed by Jen Simmons</li>
+			<li>Firefox is first to have native Dev Tools for grid, developed by Jen Simmons</li>
 		  </aside>
-        </section>
+		</section>
 		<section>
 			<a href="https://cl.ly/1G2L1K2I1c2t" target="_blank" class="stretch"><img src="https://dha4w82d62smt.cloudfront.net/items/1u1N2u2z0C172k2L0o2e/Image%202018-02-23%20at%201.03.16%20PM.png" style="display: block;height: auto;width: 100%;"/></a>
 		</section>
 		<section>
-			<h2>Getting Started</h2>
 			<a href="https://cl.ly/0Z0O1M1O2W1i" target="_blank"><img src="https://dha4w82d62smt.cloudfront.net/items/0b332P0N2u2V3E0M0O1p/Image%202018-02-23%20at%201.05.56%20PM.png" style="display: block;height: auto;width: 100%; max-height: 70vh"/></a>
 		</section>
-        <section>
-          <h2>Getting Started</h2>
+		<section>
+		  <h2>Getting Started</h2>
 
-          <a href="http://cssgridgarden.com/">http://cssgridgarden.com/</a><br>
-          <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a><br>
-          Rachel Andrew: <a href="https://gridbyexample.com/">https://gridbyexample.com/</a><br>
-          Jen Simmons: <a href="http://labs.jensimmons.com/">http://labs.jensimmons.com/</a><br>
+		  <ul class="screen-notes">
+			<li>CSS Grid Garden: <a href="http://cssgridgarden.com/">http://cssgridgarden.com/</a><br></li>
+			<li>CSS Tricks: <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">https://css-tricks.com/snippets/css/complete-guide-grid/</a><br></li>
+			<li>Rachel Andrew: <a href="https://gridbyexample.com/">https://gridbyexample.com/</a><br></li>
+			<li>Jen Simmons: <a href="http://labs.jensimmons.com/">http://labs.jensimmons.com/</a><br></li>
+		</ul>
 		  <aside class="notes">
-		  	Rachel Andrew and Jen Simmons have been leading education on CSS Grid for a few years now
+			Rachel Andrew and Jen Simmons have been leading education on CSS Grid for a few years now
 		  </aside>
-        </section>
-        <section>
-          <h2>Other Resources</h2>
-          <li>W3C Github Issues: https://github.com/w3c/csswg-drafts/labels/css-grid-1</li>
-          <li>GridBugs: https://github.com/rachelandrew/gridbugs</li>
-        </section>
+		</section>
+		<section>
+		  <h2>Other Resources</h2>
+		  <ul class="screen-notes">
+		  <li>W3C Issues: <a href="https://github.com/w3c/csswg-drafts/labels/css-grid-1">https://github.com/w3c/csswg-drafts/labels/css-grid-1</a></li>
+		  <li>GridBugs: <a href="https://github.com/rachelandrew/gridbugs">https://github.com/rachelandrew/gridbugs</a></li>
+		  <ul>
+		</section>
+		<section>
+			<h2>Thanks!</h2>
+		</section>
 			</div>
 		</div>
 
@@ -137,6 +146,8 @@
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
 				controls: false,
+				// width: "100vw",
+				// height: "100vh",
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },

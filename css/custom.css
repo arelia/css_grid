@@ -1,0 +1,17 @@
+.screen-notes {
+
+}
+
+.screen-notes li {
+	font-size: .75em;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+.screen-notes li:last-child {
+	margin-bottom: 0;
+}
+
+.screen-notes--small li {
+	font-size: .5 em;
+}
